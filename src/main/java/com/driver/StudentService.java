@@ -24,6 +24,7 @@ public class StudentService {
     }
 
     public Student findStudent(String studentName){
+
         return studentRepository.findStudent(studentName);
     }
 
@@ -36,6 +37,7 @@ public class StudentService {
     }
 
     public List<String> findAllStudents(){
+
         return studentRepository.findAllStudents();
     }
 
@@ -44,6 +46,7 @@ public class StudentService {
     }
 
     public void deleteAllTeachers(){
+
         studentRepository.deleteAllTeachers();
     }
 }
